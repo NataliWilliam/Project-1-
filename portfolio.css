@@ -1,0 +1,305 @@
+* {
+  box-sizing: border-box;
+}
+
+.line {
+  background-color: black;
+  height: 4px;
+  width: 95%;
+}
+.center-me {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 23px;
+}
+.center-me > span {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.center-me :first-child {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-style: italic;
+}
+
+.thick-line {
+  height: 2.5px;
+  width: 42.5%;
+  margin-left: 440px;
+}
+
+.last-child {
+  border-left: black 1px solid;
+  padding-left: 5px;
+
+  font-weight: bold;
+  color: black;
+}
+
+.Project-1 {
+  margin-top: 10px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(15, 9, 94),
+    rgb(18, 124, 196)
+  );
+
+  height: 240px;
+  width: 190px;
+  float: left;
+  position: relative;
+  left: 29%;
+  box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
+  margin-left: 10px;
+}
+
+.Project-2 {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 240px;
+  width: 190px;
+  float: left;
+  position: relative;
+  left: 30%;
+  box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(76, 65, 231),
+    rgb(10, 62, 97)
+  );
+}
+.Project-3 {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 240px;
+  width: 190px;
+  float: left;
+  position: relative;
+  box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
+  background-image: linear-gradient(
+    to top left,
+    rgb(77, 71, 160),
+    rgb(6, 146, 240)
+  );
+  left: 31%;
+}
+.Project-4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  height: 240px;
+  width: 190px;
+  float: left;
+  position: relative;
+  box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
+  background-image: linear-gradient(
+    to top left,
+    rgb(77, 71, 160),
+    rgb(6, 146, 240)
+  );
+  left: 29%;
+}
+.Project-5 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  height: 240px;
+  width: 190px;
+  float: left;
+  position: relative;
+  box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
+  background-image: linear-gradient(
+    to top left,
+    rgb(77, 71, 160),
+    rgb(6, 146, 240)
+  );
+  left: 30%;
+}
+.Project-6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  height: 240px;
+  width: 190px;
+  float: left;
+  position: relative;
+  box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
+  background-image: linear-gradient(
+    to top left,
+    rgb(77, 71, 160),
+    rgb(6, 146, 240)
+  );
+  left: 31%;
+}
+.Project-7 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  height: 240px;
+  width: 190px;
+  float: left;
+  position: relative;
+  box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
+  background-image: linear-gradient(
+    to top left,
+    rgb(77, 71, 160),
+    rgb(6, 146, 240)
+  );
+  left: 29%;
+  margin-bottom: 10px;
+}
+.Project-8 {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 240px;
+  width: 190px;
+  float: left;
+  position: relative;
+  box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
+  background-image: linear-gradient(
+    to top left,
+    rgb(77, 71, 160),
+    rgb(6, 146, 240)
+  );
+  left: 30%;
+  margin-bottom: 10px;
+}
+.Project-9 {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 240px;
+  width: 190px;
+  float: left;
+  position: relative;
+  box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
+  background-image: linear-gradient(
+    to top left,
+    rgb(77, 71, 160),
+    rgb(6, 146, 240)
+  );
+  left: 31%;
+  margin-bottom: 10px;
+}
+
+.First-Line::before {
+  content: "";
+  clear: both;
+  display: block;
+}
+.Second-Line::before {
+  content: "";
+  clear: both;
+  display: block;
+}
+.third-Line::before,
+.third-Line::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.sub-Project-1 {
+  height: 50px;
+  width: 190;
+  background-color: #f6f6f1;
+  position: relative;
+  color: black;
+  top: 190px;
+}
+
+.sub-Project-2 {
+  height: 50px;
+  width: 190;
+  background-color: #f6f6f1;
+  position: relative;
+  color: black;
+  top: 190px;
+}
+
+.sub-Project-3 {
+  height: 50px;
+  width: 190;
+  background-color: #f6f6f1;
+  position: relative;
+  color: black;
+  top: 190px;
+}
+
+.sub-Project-4 {
+  height: 50px;
+  width: 190;
+  background-color: #f6f6f1;
+  position: relative;
+  color: black;
+  top: 190px;
+}
+
+.sub-Project-5 {
+  height: 50px;
+  width: 190;
+  background-color: #f6f6f1;
+  position: relative;
+  color: black;
+  top: 190px;
+}
+
+.sub-Project-6 {
+  height: 50px;
+  width: 190;
+  background-color: #f6f6f1;
+  position: relative;
+  color: black;
+  top: 190px;
+}
+.sub-Project-7 {
+  height: 50px;
+  width: 190;
+  background-color: #f6f6f1;
+  position: relative;
+  color: black;
+  top: 190px;
+}
+
+.sub-Project-8 {
+  height: 50px;
+  width: 190;
+  background-color: #f6f6f1;
+  position: relative;
+  color: black;
+  top: 190px;
+}
+
+.sub-Project-9 {
+  height: 50px;
+  width: 190;
+  background-color: #f6f6f1;
+  position: relative;
+  color: black;
+  top: 190px;
+}
+
+.text-1 {
+  margin: 0px 0px 0px 0px;
+  padding-top: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.social-media {
+  display: inline;
+  margin-left: 41%;
+}
+
+.social-media > a {
+  border-left: black 1px solid;
+  padding-left: 5px;
+  align-content: center;
+  font-weight: bold;
+  color: black;
+  margin-left: 2px;
+}
+.social-media > a:first-child {
+  border: none;
+}
