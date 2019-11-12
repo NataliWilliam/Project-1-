@@ -312,3 +312,11 @@
   font-size: 25px;
   transition: all 500ms;
 }
+
+.last-child.with-slow-transition {
+  transition: 5s;
+}
+
+.center-me :first-child.with-slow-transition {
+  transition: 5s;
+}

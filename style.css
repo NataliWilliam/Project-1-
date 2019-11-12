@@ -53,6 +53,14 @@
   transition: all 500ms;
   text-decoration: none;
 }
+.last-child.with-slow-transition {
+  transition: 5s;
+}
+
+.center-me :first-child.with-slow-transition {
+  transition: 5s;
+}
+
 .last-child {
   border-left: black 1px solid;
   padding-left: 5px;
