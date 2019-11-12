@@ -96,8 +96,8 @@
   box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
   background-image: linear-gradient(
     to top left,
-    rgb(77, 71, 160),
-    rgb(6, 146, 240)
+    rgb(104, 99, 173),
+    rgb(45, 58, 66)
   );
   left: 29%;
 }
@@ -112,8 +112,8 @@
   box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
   background-image: linear-gradient(
     to top left,
-    rgb(77, 71, 160),
-    rgb(6, 146, 240)
+    rgb(88, 78, 221),
+    rgb(61, 127, 172)
   );
   left: 30%;
 }
@@ -128,8 +128,8 @@
   box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
   background-image: linear-gradient(
     to top left,
-    rgb(77, 71, 160),
-    rgb(6, 146, 240)
+    rgb(17, 15, 43),
+    rgb(24, 127, 196)
   );
   left: 31%;
 }
@@ -145,7 +145,7 @@
   background-image: linear-gradient(
     to top left,
     rgb(77, 71, 160),
-    rgb(6, 146, 240)
+    rgb(95, 174, 226)
   );
   left: 29%;
   margin-bottom: 10px;
@@ -160,8 +160,8 @@
   box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
   background-image: linear-gradient(
     to top left,
-    rgb(77, 71, 160),
-    rgb(6, 146, 240)
+    rgb(17, 10, 117),
+    rgb(64, 137, 185)
   );
   left: 30%;
   margin-bottom: 10px;
@@ -176,8 +176,8 @@
   box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
   background-image: linear-gradient(
     to top left,
-    rgb(77, 71, 160),
-    rgb(6, 146, 240)
+    rgb(22, 19, 70),
+    rgb(111, 150, 175)
   );
   left: 31%;
   margin-bottom: 10px;
@@ -302,4 +302,13 @@
 }
 .social-media > a:first-child {
   border: none;
+}
+
+.center-me :first-child:hover {
+  font-size: 25px;
+  transition: all 500ms;
+}
+.last-child:hover {
+  font-size: 25px;
+  transition: all 500ms;
 }

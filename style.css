@@ -44,7 +44,15 @@
   color: black;
   font-style: italic;
 }
-
+.center-me :first-child:hover {
+  font-size: 25px;
+  transition: all 500ms;
+}
+.last-child:hover {
+  font-size: 25px;
+  transition: all 500ms;
+  text-decoration: none;
+}
 .last-child {
   border-left: black 1px solid;
   padding-left: 5px;
@@ -82,8 +90,7 @@
   display: block;
 }
 
-,
-img::before {
+.img::before {
   content: "";
   clear: both;
   display: block;
