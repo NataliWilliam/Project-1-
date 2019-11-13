@@ -26,7 +26,7 @@
 
 .thick-line {
   height: 2.5px;
-  width: 42.5%;
+  width: 63.5%;
   margin-left: 440px;
 }
 
@@ -183,17 +183,42 @@
   margin-bottom: 10px;
 }
 
-.First-Line::before {
+.card {
+  margin-top: 10px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(15, 9, 94),
+    rgb(18, 124, 196)
+  );
+  height: 240px;
+  width: calc(33.33% - 10px);
+  float: left;
+  position: relative;
+  box-shadow: 4px 3px 3px rgb(59, 54, 54, 0.5);
+  margin-left: 10px;
+}
+.thick-line {
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.First-Line::after {
   content: "";
   clear: both;
   display: block;
 }
-.Second-Line::before {
+.Second-Line::after {
   content: "";
   clear: both;
   display: block;
 }
-.third-Line::before,
+
 .third-Line::after {
   content: "";
   clear: both;
@@ -298,7 +323,7 @@
   align-content: center;
   font-weight: bold;
   color: black;
-  margin-left: 2px;
+  margin: 0 auto;
 }
 .social-media > a:first-child {
   border: none;
